@@ -15,7 +15,7 @@ public class WebConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
-                                "https://todo-68g7.onrender.com", // ✅ Replace this
+                                "https://todo2099.netlify.app/", // ✅ Replace this
                                 "http://localhost:5173"           // ✅ For local dev
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
